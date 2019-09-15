@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "keywords": [],
+  "homepage": "https://geraldnguyen.github.io/multiplication-tests",
   "main": "src/index.js",
   "dependencies": {
     "lodash": "4.17.15",
@@ -11,13 +12,16 @@
     "react-scripts": "3.0.1"
   },
   "devDependencies": {
+    "gh-pages": "^2.1.1",
     "typescript": "3.3.3"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "browserslist": [
     ">0.2%",
