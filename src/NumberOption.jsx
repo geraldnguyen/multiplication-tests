@@ -29,8 +29,8 @@ export default class NumberOption extends PureComponent {
         <input
           value={number}
           type="checkbox"
-          onClick={this.selectNumber}
-          defaultChecked={selected}
+          onChange={this.selectNumber}
+          checked={selected}
         />
         <span>{number}</span>
         Number of tests:
