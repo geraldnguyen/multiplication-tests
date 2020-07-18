@@ -6,7 +6,7 @@
   "homepage": "https://geraldnguyen.github.io/multiplication-tests",
   "main": "src/index.js",
   "dependencies": {
-    "lodash": "4.17.15",
+    "lodash": "4.17.19",
     "react": "16.8.6",
     "react-dom": "16.8.6",
     "react-scripts": "3.0.1"
